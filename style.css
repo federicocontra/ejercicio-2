@@ -1,0 +1,130 @@
+:root{
+    --background: #e2e6f1;
+    --primary: #000103;
+    --secondary: #050d26;
+    --btn-bg: #050d26;
+    --bg-azul-10: #f0fbff;
+    --bg-white: #fff;
+    --bg-electric: #f0fbff;
+    --nav-bg: #0f1525;
+    --text-gray: #adb9c7;
+    --text-white: #f3f4f6;
+    --fire: #ff6f00;
+    --electric: #64d3ff;
+      
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: var(--background);
+}
+
+
+
+
+header{
+    background: var(--background);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 30px;
+    height: 65px;
+    position: fixed;
+    width: 100%;
+}
+.navbar,
+.navbar-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.navbar-list{
+    gap: 30px;
+}
+.navbar-list a{
+    color: var(--primary);
+    font-size: 16px;
+}
+
+.logo{
+    height: 90px;
+}
+
+main{
+    background-color:var(--background) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    color: #e2e6f1;
+    }
+
+#hero{
+max-width: 1200px;
+margin-top: 65px;
+padding: 70px 0;
+display: flex;
+justify-content: center;
+align-items: center; 
+}
+
+.hero-info{
+    flex-direction: column;
+    align-items:flex-start;
+    width: 50%;
+    gap: 20px;
+}
+
+.hero-info h1{
+    font-size: 48px;
+    font-weight: 800;
+    width: 80%;
+    min-width: 500px;
+    color: #000103;
+}
+.hero-info p{
+    font-size: 14px;
+    width: 70%;
+    color: var(--primary);
+}
+.hero-info a{
+    background-color: #0f1525;
+    color: #adb9c7;
+    width: 80px;
+    height: 60px;
+    padding: 10px 0;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 8px;
+    flex-direction: row-reverse;
+        }
+
+.hero-imagen{
+    width: 550px;
+    padding: 20px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+#desarrollo{
+    font-size: 14px;
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    color: #000103;
+    }
